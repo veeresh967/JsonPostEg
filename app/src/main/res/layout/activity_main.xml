@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.veeresh.b36_jsonposteg.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:id="@+id/editText1"
+        android:textColor="#F00"
+        android:textColorHint="#F00"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter city"
+        android:id="@+id/editText2"
+        android:textColor="#F00"
+        android:textColorHint="#F00"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter twitter"
+        android:id="@+id/editText3"
+        android:textColor="#F00"
+        android:textColorHint="#F00"
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST"
+        android:id="@+id/button1"
+        android:textColor="#000"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SERVER RESPONSE : "
+        android:id="@+id/textView1"
+        android:textSize="30sp"
+        android:textColor="#00F"/>
+</LinearLayout>
